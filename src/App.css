@@ -2,14 +2,22 @@
     display: flex;
     margin-top: 40px;
     justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    gap: 40px;
 }
 
 h1{
     text-align: center;
 }
 
-
 .App{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
     margin: auto;
+    width: 100%;
     max-width: 900px;
 }
